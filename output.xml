@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180711 20:07:02.660" generator="Robot 3.0 (Python 2.7.11 on win32)">
+<suite source="C:\Users\Olenka\programming\RF\Appium\TestSuite.robot" id="s1" name="TestSuite">
+<test id="s1-t1" name="Calculator">
+<kw name="Open Calc" library="Keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=8.0.0</arg>
+<arg>deviceName=5c1f9476</arg>
+<arg>appPackage=com.oneplus.calculator</arg>
+<arg>appActivity=Calculator</arg>
+</arguments>
+<status status="PASS" endtime="20180711 20:07:14.005" starttime="20180711 20:07:02.818"></status>
+</kw>
+<status status="PASS" endtime="20180711 20:07:14.005" starttime="20180711 20:07:02.818"></status>
+</kw>
+<status status="PASS" endtime="20180711 20:07:14.005" critical="yes" starttime="20180711 20:07:02.817"></status>
+</test>
+<status status="PASS" endtime="20180711 20:07:14.006" starttime="20180711 20:07:02.661"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="TestSuite" pass="1">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
